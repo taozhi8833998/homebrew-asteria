@@ -1,9 +1,9 @@
 class Asteria < Formula
   desc "CLI for asteria written in Rust"
   homepage "https://github.com/taozhi8833998/asteria-cli"
-  url "https://github.com/taozhi8833998/asteria-cli/releases/download/1.9.4/asteria-1.9.4-x86_64-apple-darwin.tar.gz"
-  sha256 "29448388117094b1227a94f7478e7d0cad4f0182f6009d5377d6ebe5eb919850"
-  version "1.9.4"
+  url "https://github.com/taozhi8833998/asteria-cli/releases/download/2.8.0/asteria-2.8.0-darwin-arm64.tar.gz"
+  sha256 "8cd0977b81dc29479632dd7a7f2ad3859a611fabd4c24b2ab51e1c95f7d13a32"
+  version "2.8.0"
 
   def install
     bin.install "asteria"
